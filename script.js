@@ -114,7 +114,7 @@ let scrollContainer = document.querySelector(".gallery");
             scrollContainer.scrollLeft -= 370;
         });
 
- profile
+//  profile
 		function displayImage(input) {
             var file = input.files[0];
             if (file) {
@@ -158,4 +158,4 @@ slider.addEventListener('mousemove', (e) => {
     const walk = (x - startX) * 2;
     slider.scrollLeft = scrollLeft - walk;
 });
- main
+//  main
