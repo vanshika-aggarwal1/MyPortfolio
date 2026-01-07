@@ -384,8 +384,10 @@ header span{
   width: 36%;
 }
 .girl{
+  height:22%;
+  width: 36%;
   position: relative;
-  left: 45% ;
+  left: 60%;
   top: 4%;
 }
 
@@ -401,7 +403,7 @@ header span{
   margin-top: 30px;
   margin-left: 10px;
 }
-.fab{
+.fab,.fas{
   color: black;
   margin-right: 2rem; 
   font-size: 1.5rem;
@@ -809,6 +811,7 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  align-items: center;
 }
 
 .skill:hover {
@@ -873,6 +876,7 @@ h2 {
   transition: transform 0.3s ease-in-out;
   width: 200px;
   margin-bottom: 20px;
+  /* align-items: center; */
 }
 
 .skill:hover {
@@ -883,6 +887,8 @@ h2 {
   font-size: 40px;
   color: #0277bd;
   margin-bottom: 10px;
+  position: relative;
+  left: 11%;
 }
 
 .skill span {
